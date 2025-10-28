@@ -1,0 +1,9 @@
+const ALLOWED_DOMAINS = ["@princeton.edu"];
+
+const HOME_ROUTE = "/home";
+const AUTH_LOGIN_ROUTE = "/auth/login";
+
+const PROTECTED_ROUTES = [HOME_ROUTE];
+const PUBLIC_ROUTES = [AUTH_LOGIN_ROUTE];
+
+export { ALLOWED_DOMAINS, HOME_ROUTE, AUTH_LOGIN_ROUTE, PROTECTED_ROUTES, PUBLIC_ROUTES };
